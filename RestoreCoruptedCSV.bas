@@ -82,7 +82,6 @@ aDelim(3) = vbTab
 
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
-' 1. position from "Need to be done"
 strPath = Application.GetOpenFilename(FileFilter:="Pliki tekstowe (*.csv;*.txt;),*.csv;*.txt;", _
                                       Title:="Wybierz plik tekstowy")
 
